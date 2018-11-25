@@ -1,0 +1,19 @@
+.pointer {
+    cursor: pointer;
+}
+
+.att {
+    position: absolute;
+    top: 83px;
+    color: black;
+    left: 35px;
+    font-size: 10px;
+}
+
+.def {
+    position: absolute;
+    top: 83px;
+    color: black;
+    left: 67px;
+    font-size: 10px;
+}

@@ -1,0 +1,61 @@
+.pick-cards-screen {
+    background: url('/assets/images/pick-cards-background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: -webkit-fill-available;
+    color: white;
+}
+
+.game-screen {
+    background: url('/assets/images/pitch.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+.won-screen {
+    background: url('/assets/images/won_screen.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+.lost-screen {
+    background: url('/assets/images/lost_screen.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+.pl {
+    padding-left: 120px;
+}
+
+.pr {
+    padding-right: 120px;
+}
+
+.score-container {
+    position: absolute;
+    bottom: 0;
+}
+
+.score {
+    font-size: 60px;
+    margin-left: 100px;
+    color: white;
+}
+
+.opponentScore {
+    font-size: 60px;
+    margin-right: 100px;
+    color: white;
+}

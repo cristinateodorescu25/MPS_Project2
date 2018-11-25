@@ -1,0 +1,5 @@
+<div style="position: relative">
+    <img class="pointer" [src]="src" alt="src" height="120" width="100">
+    <div *ngIf="att && att > 0" class="att">{{ att }}</div>
+    <div *ngIf="def && def > 0" class="def">{{ def }}</div>
+</div>
