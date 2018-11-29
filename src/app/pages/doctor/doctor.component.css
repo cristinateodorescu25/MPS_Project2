@@ -1,0 +1,11 @@
+/*Home Layout*/
+.main__container {
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(auto-fill,1fr);
+  align-items: center;
+  justify-items: center;
+  height: 90vh;
+}
