@@ -1,5 +1,5 @@
 .main__container {
-  background-color: #0c1066;
+  background-color: #2E0219;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -12,8 +12,8 @@
   display: flex;
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  width: 85%;
+  box-shadow: 0 0 20px #2E0219;
+  width: 40%;
   height: 80%;
 }
 
@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   flex: 5 5;
-  background: linear-gradient(#42A8F2, #7611f9);
+  /* background: linear-gradient(#42A8F2, #7611f9); */
 }
 
 .login-content {
@@ -42,12 +42,12 @@
 }
 
 .login__illustration {
-  height: 80%;
-  width: 80%;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .login-welcome-text {
-  color: #39437a;
+  color: #2E0219;
   letter-spacing: 0.03rem;
   margin-bottom: 6rem;
   animation-duration: 2s;
@@ -59,12 +59,17 @@
   border-radius: 2rem;
   outline: none;
   border: none;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px #fff0f8;
   animation-duration: 2s;
 }
 
+.login-input:hover {
+
+  box-shadow: 0 0 10px rgb(238, 125, 165);
+}
+
 .login-btn {
-  background: linear-gradient(#4fffa1, #4ff0ff);
+  background: linear-gradient(to left, #600028, #2e2e2e);
   padding: 1rem;
   border-radius: 2rem;
   outline: none;
@@ -77,21 +82,24 @@
 }
 
 .login-btn:hover {
-  background: linear-gradient(to right, #e21649, #ffb600);
+  background: linear-gradient(to left, #F22F73, #ac0202);
 }
 
 .login-input::placeholder {
-  color: #39437a;
+  color: #2e2e2e;
   font-size: 0.9rem;
 }
 
 .signup-notice {
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
   display: flex;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .signup-link {
   text-decoration: none;
   color: #ff3a82;
+  font-size: 2 rem;
+
 }

@@ -9,9 +9,13 @@ import {HttpClientModule} from '@angular/common/http';
 import {LoginComponent} from './pages/login/login.component';
 import {SignupComponent} from './pages/signup/signup.component';
 import {UiService} from './services/ui/ui.service';
+import {WebsocketService} from './services/websocket.service';
+import {ChatService} from './services/chat.service';
 import {DonatorComponent} from './pages/donator/donator.component';
 import {DoctorComponent} from './pages/doctor/doctor.component';
 import {PersonalComponent} from './pages/personaltr/personaltr.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -21,12 +25,14 @@ import {PersonalComponent} from './pages/personaltr/personaltr.component';
     SignupComponent,
     DonatorComponent,
     DoctorComponent,
-    PersonalComponent
+    PersonalComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [
     UiService

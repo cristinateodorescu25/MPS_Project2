@@ -1,3 +1,18 @@
-<p>
-  signup works!
-</p>
+<div class="main__container">
+  <div class="login-card">
+    <main class="login-content">
+
+      <h1 class="login-welcome-text">Introduceți datele:</h1>
+
+      <form (submit)="signup()" method="post" class="login-form">
+        <input type="text" autofocus placeholder="Utilizator" name="username" class="login-input">
+        <input type="password" placeholder="Parolă" name="password" class="login-input">
+        <input type="location" placeholder="Localitate" name="location" class="login-input">
+        <input type="age" placeholder="Vârstă" name="age" class="login-input">
+
+        <input type="submit" name="submit" placeholder="Sign In" class="login-btn">
+      </form>
+
+    </main>
+  </div>
+</div>

@@ -1,19 +1,90 @@
-/*Home Layout*/
 .main__container {
-  padding-top: 20px;
-  display: -ms-grid;
+  height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(auto-fill,1fr);
+  justify-content: center;
   align-items: center;
-  justify-items: center;
-  height: 90vh;
+  /* overflow: hidden; */
 }
 
-.zoom {
-  transition: transform .2s;
+.donation-card {
+  height: 100%;
+  color: black;
+  padding: 30px;
+  text-align: center;
 }
 
-.zoom:hover {
-  transform: scale(1.5);
+.data-card {
+  height: 100%;
+  color: black;
+  padding: 30px;
+  text-align: center;
+}
+
+.donation-card-dark {
+  height: 100%;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.data-card-dark {
+  height: 100%;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.label {
+  display:block;
+}
+
+.invalid-feedback {
+  font-size: 0.6rem;
+  color: #F22F73;
+}
+
+.registerForm {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+}
+
+.form-control {
+  margin: 0.75rem 0;
+  padding: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 20px #fff0f8;
+  animation-duration: 2s;
+}
+
+.form-control:hover {
+
+  box-shadow: 0 0 10px rgb(238, 125, 165);
+}
+
+.btn {
+  background: linear-gradient(to left, #600028, #2e2e2e);
+  padding: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  animation-duration: 2s;
+}
+
+.btn:hover {
+  background: linear-gradient(to left, #F22F73, #ac0202);
+}
+
+.form-control::placeholder {
+  color: #2e2e2e;
+  font-size: 0.9rem;
 }
