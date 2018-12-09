@@ -16,6 +16,6 @@ export class PersonalComponent implements OnInit {
   }
 
   sendMessage() {
-    this.chat.sendMsg("Test Message");
+    this.chat.sendMsg("Hi");
   }
 }
